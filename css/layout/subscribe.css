@@ -1,0 +1,52 @@
+/* SUBSCRIBE START */
+
+#costumer {
+    position: relative;
+}
+
+.subscribe {
+    position: absolute;
+    left: 0;
+    padding-top: 58px;
+    padding-bottom: 50px;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.subscribe-left h1 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.subscribe-left p {
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.subscribe-right {
+    text-align: center;
+}
+
+.subscribe-right button {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 17.5px 65px;
+    border-radius: 10px;
+    background-color: #F53838;
+}
+
+/* SUBSCRIBE END */

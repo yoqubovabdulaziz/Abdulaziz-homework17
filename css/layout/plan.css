@@ -1,0 +1,108 @@
+/* PLAN START */
+
+#plan {
+    padding-top: 1px;
+}
+
+.plan h1 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.plan p {
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.plan-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #DDD;
+    border-radius: 10px;
+    padding: 50px 40px 50px 40px;
+    margin-bottom: 20px;
+}
+
+.free-img {
+    margin-bottom: 50PX;
+}
+
+.plan-card h2 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+.check__simple {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.check__simple h4 {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.plan-row h1 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.plan-row button {
+    color: #F53838;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px 63px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.plan-row button:hover {
+    background-color: #F53838;
+    color: #FFF;
+    border: 2px solid #F53838;
+    box-shadow: 0 1px 10px 0 #F53838;
+}
+
+.plan-card span {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* PLAN END */

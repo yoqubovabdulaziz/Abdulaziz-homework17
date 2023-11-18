@@ -1,0 +1,52 @@
+#navbar-responsive {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    background-color: #ddd;
+    z-index: 200;
+    transition: 0.5s;
+}
+
+.navbar-link {
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-weight: 400;
+}
+
+.navbar-sign-up {
+    color: #F53855;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 45px;
+    border: 1.5px solid #F53855;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.navbar-sign-up:hover {
+    background-color: #F53855;
+    color: white;
+}
+
+#navbar-close i {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: red;
+    font-size: 30px;
+}

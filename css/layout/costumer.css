@@ -1,0 +1,167 @@
+/* COSTUMER START */
+
+.costumer h1 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.costumer p {
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.owl-card {
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin-bottom: 80px;
+}
+
+.owl-card-2 {
+    padding-bottom: 90px;
+}
+
+.owl-card-3 {
+    padding-bottom: 60px;
+}
+
+.owl-card:hover {
+    border: 2px solid red;
+}
+
+.owl-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.owl-left-img {
+    max-width: 60px;
+}
+
+.owl-left-img img {
+    border-radius: 20px;
+}
+
+.owl-left-text h3 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.owl-left-text p {
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.owl-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.owl-img h4 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.owl-img h5 {
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.owl-start {
+    display: flex;
+}
+
+.owl-main-text {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#owl-carousel {
+    position: relative;
+}
+
+#owl-carousel .owl-next,
+.owl-prev {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+#owl-carousel .owl-prev {
+    right: 40px;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+
+#owl-carousel .owl-next:hover {
+    background-color: red;
+}
+
+#owl-carousel .owl-prev:hover {
+    background-color: red;
+}
+
+#owl-carousel .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+}
+
+#owl-carousel .owl-dots span {
+    width: 15px;
+    height: 15px;
+    transition: all 0.5s;
+}
+
+#owl-carousel .owl-dot.active span {
+    width: 30px;
+    background-color: red;
+}
+
+#costumer {
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+/* COSTUMER END */

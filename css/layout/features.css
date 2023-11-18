@@ -1,0 +1,42 @@
+/* FEATURES START  */
+
+.features__right h1 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features__right p {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.check {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.check h4 {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.features__left img {
+    width: 100%;
+}
+
+/* FEATURES END */

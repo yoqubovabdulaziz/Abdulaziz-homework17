@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaslesVPN</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body">
+    <div id="loader">
+        <div class="loader"></div>
+    </div>
+    <a id="backtop" href="#">
+        <img src="assets/images/backtop.svg" alt="backtop">
+    </a>
+    <header id="navbar">
+        <nav class="container navigator">
+            <div class="nav__logo">
+                <img src="/assets/images/lasles-logo.svg" alt="LaslesVPN logo">
+                <h3>LaslesVPN</h3>
+            </div>
+            <ul class="nav__list">
+                <li class="nav-items"><a href="#home-row" class="nav__link">About</a></li>
+                <li class="nav-items"><a href="#subscribe" class="nav__link">Features</a></li>
+                <li class="nav-items"><a href="#plan" class="nav__link">Pricing</a></li>
+                <li class="nav-items"><a href="#costumer" class="nav__link">Testimonials</a></li>
+                <li class="nav-items"><a href="#footer" class="nav__link">Help</a></li>
+            </ul>
+            <div class="nav__end__res">
+                <div class="nav__end">
+                    <a class="sign__in" href="https://homework-9-bay.vercel.app/pages/login.html">Sign In</a>
+                    <a class="sign__up" href="https://homework-9-bay.vercel.app">Sign Up</a>
+                </div>
+                <button id="mode-btn">
+                    <img src="assets/images/dark.svg" alt="dark">
+                </button>
+                <button id="navbar-open" class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <ul id="navbar-responsive">
+        <button id="navbar-close">
+            <i class="fa-regular fa-circle-xmark fa-beat-fade"></i>
+        </button>
+        <li class="navbar-items"><a href="#home-row" class="navbar-link">About</a></li>
+        <li class="navbar-items"><a href="#subscribe" class="navbar-link">Features</a></li>
+        <li class="navbar-items"><a href="#plan" class="navbar-link">Pricing</a></li>
+        <li class="navbar-items"><a href="#costumer" class="navbar-link">Testimonials</a></li>
+        <li class="navbar-items"><a href="#footer" class="navbar-link">Help</a></li>
+        <a class="navbar-sign-up" href="https://homework-9-bay.vercel.app/pages/login.html">Sign In</a>
+        <a class="navbar-sign-up" href="https://homework-9-bay.vercel.app">Sign Up</a>
+    </ul>
+    <main>
+        <section id="home" data-aos="fade-right" data-aos-duration="3000">
+            <div class="container home">
+                <div class="home__left">
+                    <h1>Want anything to be easy with LaslesVPN.</h1>
+                    <p>Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
+                    <div class="home-btn">
+                        <button>Get Started</button>
+                    </div>
+                </div>
+                <div class="home__right">
+                    <img src="assets/images/first-boy.png" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div id="home-row" class="home__row" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="home__card">
+                        <img src="assets/images/user.svg" alt="user">
+                        <div class="home__card__text">
+                            <h1>90+</h1>
+                            <h3>Users</h3>
+                        </div>
+                    </div>
+                    <div class="home__card">
+                        <img src="assets/images/location.svg" alt="user">
+                        <div class="home__card__text">
+                            <h1>30+</h1>
+                            <h3>Locations</h3>
+                        </div>
+                    </div>
+                    <div class="home__card">
+                        <img src="assets/images/server.svg" alt="user">
+                        <div class="home__card__text">
+                            <h1>50+</h1>
+                            <h3>Servers</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="feature" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="container feature">
+                <div class="features__left">
+                    <img src="assets/images/second-boy.png" alt="boy">
+                </div>
+                <div class="features__right">
+                    <h1>We Provide Many Features You Can Use</h1>
+                    <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
+                    <div class="features-items">
+                        <div class="check">
+                            <img src="assets/images/check-icon.svg" alt="check">
+                            <h4>Powerfull online protection.</h4>
+                        </div>
+                        <div class="check">
+                            <img src="assets/images/check-icon.svg" alt="check">
+                            <h4>Internet without borders.</h4>
+                        </div>
+                        <div class="check">
+                            <img src="assets/images/check-icon.svg" alt="check">
+                            <h4>Supercharged VPN</h4>
+                        </div>
+                        <div class="check">
+                            <img src="assets/images/check-icon.svg" alt="check">
+                            <h4>No specific time limits.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="plan">
+            <div class="container plan">
+                <h1>Choose Your Plan</h1>
+                <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+            </div>
+            <div class="plan-row">
+                <div class="plan-card" data-aos="fade-right" data-aos-duration="1500">
+                    <img class="free-img" src="assets/images/Free.png" alt="free plan">
+                    <h2>Free Plan</h2>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Unlimited Bandwitch</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Encrypted Connection</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>No Traffic Logs</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Works on All Devices</h4>
+                    </div>
+                    <h1>Free</h1>
+                    <button>Select</button>
+                </div>
+                <div class="plan-card" data-aos="zoom-out" data-aos-duration="1500">
+                    <img class="free-img" src="assets/images/Free.png" alt="Standard plan">
+                    <h2>Standard Plan</h2>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Unlimited Bandwitch</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Encrypted Connection</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Yes Traffic Logs</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Works on All Devices</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Connect Anyware</h4>
+                    </div>
+                    <h1>$9 / <span>mo</span></h1>
+                    <button>Select</button>
+                </div>
+                <div class="plan-card" data-aos="fade-left" data-aos-duration="1500">
+                    <img class="free-img" src="assets/images/Free.png" alt="Premium plan">
+                    <h2>Premium Plan</h2>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Unlimited Bandwitch</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Encrypted Connection</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Yes Traffic Logs</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Works on All Devices</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Connect Anyware</h4>
+                    </div>
+                    <div class="check__simple">
+                        <img src="assets/images/jam_check.svg" alt="check">
+                        <h4>Get New Features</h4>
+                    </div>
+                    <h1>$12 / <span>mo</span></h1>
+                    <button>Select</button>
+                </div>
+            </div>
+        </section>
+        <section id="global" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="container global">
+                <h1>Huge Global Network of Fast VPN</h1>
+                <p>See LaslesVPN everywhere to make it easier for you when you move locations.</p>
+                <div class="global__map">
+                    <img src="assets/images/map.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="costumer">
+            <div class="container">
+                <div class="costumer" data-aos="flip-up" data-aos-duration="1000">
+                    <h1>Trusted by Thousands of Happy Customer</h1>
+                    <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
+                </div>
+                <div id="owl-carousel" class="owl-carousel owl-theme" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="owl-card">
+                        <div class="owl-header">
+                            <div class="owl-left">
+                                <div class="owl-left-img">
+                                    <img src="assets/images/owl1.png" alt="men">
+                                </div>
+                                <div class="owl-left-text">
+                                    <h3>Viezh Robert</h3>
+                                    <p>Warsaw, Poland</p>
+                                </div>
+                            </div>
+                            <div class="owl-right">
+                                <h3>4.5</h3>
+                                <img src="assets/images/star.svg" alt="start">
+                            </div>
+                        </div>
+                        <p class="owl-main-text">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no
+                        problems. LaslesVPN always the best”.</p>
+                    </div>
+                    <div class="owl-card owl-card-2">
+                        <div class="owl-header">
+                            <div class="owl-left">
+                                <div class="owl-left-img">
+                                    <img src="assets/images/owl2.png" alt="men">
+                                </div>
+                                <div class="owl-left-text">
+                                    <h3>Yessica Christy</h3>
+                                    <p>Shanxi, China</p>
+                                </div>
+                            </div>
+                            <div class="owl-right">
+                                <h3>4.5</h3>
+                                <img src="assets/images/star.svg" alt="start">
+                            </div>
+                        </div>
+                        <p class="owl-main-text">
+                            “I like it because I like to travel far and still can connect with high speed.”.
+                        </p>
+                    </div>
+                    <div class="owl-card owl-card-3">
+                        <div class="owl-header">
+                            <div class="owl-left">
+                                <div class="owl-left-img">
+                                    <img src="assets/images/owl3.png" alt="men">
+                                </div>
+                                <div class="owl-left-text">
+                                    <h3>Kim Young Jou</h3>
+                                    <p>Seoul, South Korea</p>
+                                </div>
+                            </div>
+                            <div class="owl-right">
+                                <h3>4.5</h3>
+                                <img src="assets/images/star.svg" alt="start">
+                            </div>
+                        </div>
+                        <p class="owl-main-text">“This is very unusual for my business that currently requires a virtual private network that has high security.”.</p>
+                    </div>
+                    <div class="owl-card">
+                        <div class="owl-header">
+                            <div class="owl-left">
+                                <div class="owl-left-img">
+                                    <img src="assets/images/owl1.png" alt="men">
+                                </div>
+                                <div class="owl-left-text">
+                                    <h3>Viezh Robert</h3>
+                                    <p>Warsaw, Poland</p>
+                                </div>
+                            </div>
+                            <div class="owl-right">
+                                <h3>4.5</h3>
+                                <img src="assets/images/star.svg" alt="start">
+                            </div>
+                        </div>
+                        <p class="owl-main-text">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and
+                            so far there have been no
+                            problems. LaslesVPN always the best”.</p>
+                    </div>
+                </div>
+                <div id="subscribe" class="subscribe">
+                    <div class="container subscribe-row">
+                        <div class="subscribe-left">
+                            <h1>Subscribe Now for <br> Get Special Features!</h1>
+                            <p>Let's subscribe with us and find the fun.</p>
+                        </div>
+                        <div class="subscribe-right">
+                            <button>Subscribe Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container footer__container">
+            <div class="footer__left">
+                <div class="nav__logo footer__logo">
+                    <img src="assets/images/lasles-logo.svg">
+                    <h3>
+                        Lasles<span>VPN</span>
+                    </h3>
+                </div>
+                <p>
+                    LaslesVPN is a private virtual network that has unique features and has high security.
+                </p>
+                <div class="footer__media">
+                    <img src="assets/images/Facebook.svg">
+                    <img src="assets/images/Twitter.svg">
+                    <img src="assets/images/Instagram.svg">
+                </div>
+                <h4>©2020LaslesVPN</h4>
+            </div>
+            <div class="footer__right">
+                <ul class="footer__ul">
+                    <h3>Product</h3>
+                    <li><a href="#">Download </a></li>
+                    <li><a href="#">Pricing </a></li>
+                    <li><a href="#">Locations </a></li>
+                    <li><a href="#">Server </a></li>
+                    <li><a href="#">Countries </a></li>
+                    <li><a href="#">Blog </a></li>
+                </ul>
+                <ul class="footer__ul">
+                    <h3>Engage</h3>
+                    <li><a href="#">LaslesVPN ? </a></li>
+                    <li><a href="#">FAQ </a></li>
+                    <li><a href="#">Tutorials </a></li>
+                    <li><a href="#">About Us </a></li>
+                    <li><a href="#">Privacy Policy </a></li>
+                    <li><a href="#">Terms of Service </a></li>
+                </ul>
+                <ul class="footer__ul">
+                    <h3>Earn Money</h3>
+                    <li><a href="#">Affiliate </a></li>
+                    <li><a href="#">Become Partner </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>

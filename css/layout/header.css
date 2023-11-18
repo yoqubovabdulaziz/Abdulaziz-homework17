@@ -1,0 +1,95 @@
+/* HEADER START */
+
+header {
+    height: 70.24px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.navigator {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo h3 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav__list {
+    display: none;
+    gap: 40px;
+}
+
+.nav__end__res {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav__end {
+    display: none;
+}
+
+.nav__end__res {
+    display: flex;
+    gap: 15px;
+}
+
+#mode__btn {
+    font-size: 25px;
+    background-color: transparent;
+}
+
+.hamburger {
+    font-size: 25px;
+    background-color: transparent;
+}
+
+.sign__in {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sign__in:hover {
+    color: #F53855;
+}
+
+.sign__up {
+    color: #F53855;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 45px;
+    border: 1.5px solid #F53855;
+    border-radius: 25px;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.sign__up:hover {
+    background-color: #F53855;
+    color: white;
+}
+
+/* HEADER END */

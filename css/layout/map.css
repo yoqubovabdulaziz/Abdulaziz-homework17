@@ -1,0 +1,28 @@
+/* GLOBAL START */
+
+.global h1 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.global p {
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.global__map img {
+    width: 100%;
+}
+
+/* GLOBAL END */

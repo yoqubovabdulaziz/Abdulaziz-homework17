@@ -1,0 +1,85 @@
+/* DARK LIGHT START*/
+
+.light #navbar-responsive * {
+    background-color: #333;
+}
+
+.light #navbar-responsive {
+    background-color: #333;
+}
+
+.light .navbar-link {
+    color: #8B8E99;
+}
+
+#mode-btn {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    background-color: #F53838;
+    transition: 1s;
+}
+
+.light img {
+    background-color: transparent;
+}
+
+.light * {
+    background-color: black;
+}
+
+.light * {
+    color: white !important;
+}
+
+.light .home__card {
+    background-color: #333;
+}
+
+.light .home__card * {
+    background-color: #333;
+    /* border: 1px solid red; */
+}
+
+.light .home__card {
+    border: none;
+}
+
+.light .owl-carousel .owl-card * {
+    background-color: #333;
+}
+
+.light .owl-carousel .owl-card {
+    background-color: #333;
+}
+
+.light .owl-carousel {
+    background-color: red;
+}
+
+.light .subscribe {
+    background-color: #333;
+}
+
+.light .subscribe * {
+    background-color: #333;
+}
+
+.light #footer * {
+    background-color: black;
+}
+
+.light #footer {
+    background-color: black;
+}
+
+.light .subscribe button {
+    background-color: red;
+}
+
+.light #plan * {
+    background-color: black;
+}
+
+/* DARK LIGHT END */

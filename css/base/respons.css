@@ -1,0 +1,198 @@
+@media (min-width: 280px) {
+    .home__left h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .home__left p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .home__right img {
+        width: 250px;
+    }
+    .home__card {
+        background-color: #FAFAFA;
+    }
+}
+
+@media (min-width: 600px) {
+    .nav__end {
+        display: inline;
+    }
+    .home__right img {
+        width: 450px;
+    }
+    .plan-row h2{
+        font-size: 35px;
+    }
+    .plan-card h4 {
+        font-size: 17px;
+    }
+    .plan-card h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 700px) {
+    .features__right h1 {
+        text-align: start;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .features__right p {
+        text-align: start;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .home__left button {
+        padding: 17.5px 77.5px;
+    }
+    .subscribe {
+        left: 100px;
+        right: 100px;
+        bottom: -180px;
+    }
+}
+
+@media (min-width: 800px) {
+    .home__row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 200px;
+        box-shadow: 0 0 20px 0 #0D1025;
+        margin-bottom: 150px;
+    }
+
+    .home__card {
+        background-color: #fff;
+        border-right: 2px solid #EEEFF2;
+        border-radius: 0px;
+    }
+    .home__row .home__card:nth-child(3) {
+        border: none;
+    }
+    .plan-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+    .global h1 {
+        font-size: 40px;
+    }
+    .global p {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .footer__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer__left {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #owl-carousel .owl-next, .owl-prev {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        bottom: 20px;
+    }
+    #owl-carousel .owl-prev {
+        right: 60px;
+        border-radius: 100px;
+    }
+    
+}
+
+
+@media (min-width: 900px) {
+    .nav__list {
+        display: flex;
+    }
+    .hamburger {
+        display: none;
+    }
+    .feature {
+        display: flex;
+        justify-content: space-between;
+        gap: 110px;
+        padding-bottom: 131px;
+    }
+    .features__right {
+        padding-top: 50px;
+    }
+    .features__left img {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .home {
+        display: flex;
+        justify-content: space-between;
+    }
+    .home__left h1 {
+        font-size: 50px;
+        text-align: start;
+        line-height: 60px;
+        margin-top: 80px;
+    }
+    .home__left p {
+        font-size: 16px;
+        text-align: start;
+    }
+    .home-btn {
+        text-align: start;
+    }
+    .home__row {
+        display: flex;
+        justify-content: space-around;
+    }
+    .home__card {
+        padding: 67px 130px 67px 91px;
+    }
+    .check {
+        margin-bottom: 20px;
+    }
+    .plan-row {
+        gap: 35px;
+    }
+    .plan-row .plan-card:nth-child(1) h1 {
+        margin-top: 111px;
+    }
+
+    .plan-row .plan-card:nth-child(2) h1 {
+        margin-top: 70px;
+    }
+    .plan-row {
+        padding: 80px 187px 50px;
+    }
+    .subscribe-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding-left: 0; */
+    }
+    .subscribe-row h1 {
+        text-align: start;
+    }
+    .subscribe-row p {
+        text-align: start;
+    }
+    .footer__left p {
+        text-align: start;
+    }
+
+}
+
+@media (min-width: 1100px) {
+    .home__right img {
+        width: 600px
+    }
+    .home__left p {
+        margin-bottom: 40px;
+    }
+}
