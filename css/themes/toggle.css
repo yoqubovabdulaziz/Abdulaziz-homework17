@@ -38,6 +38,10 @@
     margin-bottom: 20px;
 }
 
+.navbar-item {
+    margin-bottom: 40px;
+}
+
 .navbar-sign-up:hover {
     background-color: #F53855;
     color: white;
