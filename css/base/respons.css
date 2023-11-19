@@ -127,6 +127,11 @@
     .features__left img {
         width: 600px;
     }
+    .brand {
+        padding-top: 100px;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+    }
 }
 
 @media (min-width: 1000px) {

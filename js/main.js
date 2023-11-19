@@ -23,16 +23,16 @@ let modeBtn = document.getElementById("mode-btn");
 
 modeBtn.addEventListener("click", function () {
   if (document.body.className != "light") {
-    this.firstElementChild.src = "images/light.svg";
+    this.firstElementChild.src = "assets/images/light.svg";
   } else {
-    this.firstElementChild.src = "images/dark.svg";
+    this.firstElementChild.src = "assets/images/dark.svg";
   }
   document.body.classList.toggle("light");
 });
 
 
 function openNavbar() {
-  document.getElementById("navbar-responsive").style.left = "-50%";
+  document.getElementById("navbar-responsive").style.left = "-58%";
   // document.getElementById("navbar-responsive").style.top = "0";
 }
 function closeNavbar() {

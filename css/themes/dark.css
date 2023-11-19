@@ -1,17 +1,4 @@
 /* DARK LIGHT START*/
-
-.light #navbar-responsive * {
-    background-color: #333;
-}
-
-.light #navbar-responsive {
-    background-color: #333;
-}
-
-.light .navbar-link {
-    color: #8B8E99;
-}
-
 #mode-btn {
     border-radius: 50px;
     width: 40px;
@@ -21,11 +8,30 @@
     transition: 1s;
 }
 
+.light #navbar-responsive *,
+.light #navbar-responsive,
+.light .home__card,
+.light .home__card *,
+.light .owl-carousel .owl-card *,
+.light .owl-carousel .owl-card,
+.light .subscribe,
+.light .subscribe * {
+    background-color: #333;
+}
+
+.light .navbar-link {
+    color: #8B8E99;
+}
+
+
 .light img {
     background-color: transparent;
 }
 
-.light * {
+.light *,
+.light #footer *,
+.light #footer,
+.light #plan * {
     background-color: black;
 }
 
@@ -34,52 +40,13 @@
 }
 
 .light .home__card {
-    background-color: #333;
-}
-
-.light .home__card * {
-    background-color: #333;
-    /* border: 1px solid red; */
-}
-
-.light .home__card {
     border: none;
 }
 
-.light .owl-carousel .owl-card * {
-    background-color: #333;
-}
-
-.light .owl-carousel .owl-card {
-    background-color: #333;
-}
-
-.light .owl-carousel {
+.light .owl-carousel,
+.light .subscribe button
+ {
     background-color: red;
-}
-
-.light .subscribe {
-    background-color: #333;
-}
-
-.light .subscribe * {
-    background-color: #333;
-}
-
-.light #footer * {
-    background-color: black;
-}
-
-.light #footer {
-    background-color: black;
-}
-
-.light .subscribe button {
-    background-color: red;
-}
-
-.light #plan * {
-    background-color: black;
 }
 
 /* DARK LIGHT END */

@@ -25,4 +25,14 @@
     width: 100%;
 }
 
+.brand {
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+}
+
+.brand img {
+    width: 100%;
+}
+
 /* GLOBAL END */
